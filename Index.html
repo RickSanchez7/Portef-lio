@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>Portfolio Website</title>
+
+    <!-- google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img class="logo-img" src="./Images/profile.png" alt="profile-img" />
+      </div>
+          <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+          </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Experiência</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Sobre</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Os meus Projectos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__tile section__title--intro">
+        Olá, eu sou o <strong>Ricardo</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Web dev</p>
+      <img src="./Images/Avatar-Maker.png" alt="" class="intro__img" />
+    </section>
+    <!-- / Introduction -->
+    <!-- Os meus serviços -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">Experiência</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Development</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure
+            quibusdam ipsam neque excepturi nulla soluta incidunt exercitationem
+            quidem iste deleniti?
+          </p>
+        </div>
+        <div class="service">
+          <h3>E-commerce</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            praesentium repudiandae quam architecto nulla quisquam nihil
+            blanditiis reprehenderit tempora non!
+          </p>
+        </div>
+        <div class="service">
+          <h3>Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim
+            excepturi illo ipsam voluptatibus! Beatae, id ab! Perspiciatis
+            obcaecati molestias quo.
+          </p>
+        </div>
+      </div>
+      <!-- / services -->
+      <a href="#work" class="btn">Os meus Projectos</a>
+    </section>
+    <!-- fim Os meus serviços -->
+
+    <!-- Sobre mim -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Sobre mim</h2>
+      <p class="section__subtitle section__subtitle--about">Web Developer</p>
+      <div class="about-me__body">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+          excepturi aliquam quasi dolores nostrum cumque voluptate repudiandae
+          obcaecati ratione dicta?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quis
+          soluta provident porro aspernatur nostrum corporis modi, ab excepturi
+          dolorem?
+        </p>
+      </div>
+      <img src="" alt="" class="about-me__img" />
+    </section>
+    <!-- / Sobre mim -->
+
+    <!-- Projectos -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work ">Os meus Projectos</h2>
+      <Uma class="section__subtitle section__subtitle--work">Uma selecção dos meu projectos</p>
+
+      <div class="portfolio">
+        <div class="portfolio__item">
+          <p class="project-title">Website</p>
+          <img src="./Images/website.png" alt="portfolio__img" />
+          <div class="container-projects">
+            <a href="https://github.com/RickSanchez7/Yoga-website" target="_blank">
+              <button class="btn-project">Github</button>
+            </a>
+            <a href="https://yoga-master-website.netlify.app/" target="_blank">
+              <button class="btn-project">Website</button>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio__item">
+          <p class="project-title">MovieDB</p>
+          <img src="./Images/website.png" alt="portfolio__img" />
+          <div class="container-projects">
+            <a href="https://github.com/RickSanchez7/MovieSeach-DB" target="_blank">
+              <button class="btn-project">Github</button>
+            </a>
+            <a href="https://moviesearch-db.netlify.app/" target="_blank">
+              <button class="btn-project">MovieDB</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / Projectos -->
+    <!-- footer -->
+    <footer class="footer">
+      <p>ricardobcosta17@hotmail.com</p>
+      <ul class="social-list">
+        <li class="social-list">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/ricardo-costa-973b92188/"
+            ><i class="fab fa-linkedin"></i></a
+          >
+        </li>
+        <li class="social-list">
+          <a class="social-list__link" href="https://github.com/RickSanchez7"
+            ><i class="fab fa-github"></i></a
+          >
+        </li>
+      </ul>
+    </footer>
+    <!-- / footer -->
+    <script src="main.js"></script>
+  </body>
+</html>
