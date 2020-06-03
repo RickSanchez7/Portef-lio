@@ -242,6 +242,31 @@ header {
   bottom: 6px;
 }
 
+@media screen and (min-width: 768px) {
+  header {
+    padding: 0;
+  }
+  .logo {
+    padding: 1em;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+  .nav {
+    position: relative;
+    transform: translateX(0%);
+  }
+  .nav__list {
+    flex-direction: row;
+  }
+  .nav__item {
+    --fs-h2: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
 /*  Intro section  */
 
 .intro {
@@ -347,37 +372,6 @@ header {
 .about-me__img {
   box-shadow: var(--bs);
 }
-
-/* @media (min-width: 600px) {
-  .about-me {
-    display: grid;
-    grid-template-columns: 1fr 200px;
-    grid-template-areas:
-      "title img"
-      "subtitle img"
-      "text img";
-    grid-column-gap: 2em;
-  }
-
-  .section__title--about {
-    grid-area: title;
-  }
-
-  .section__subtitle--about {
-    grid-column: 1 / -1;
-    grid-row: 2;
-    position: relative;
-    left: -1em;
-    width: calc(100% + 2em);
-    padding-left: 1em;
-    padding-right: calc(200px + 4em);
-  }
-
-  .aboute-me__img {
-    grid-area: img;
-    z-index: 2;
-  }
-} */
 
 /* / Sobre mim */
 
