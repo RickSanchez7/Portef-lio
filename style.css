@@ -315,7 +315,7 @@ header {
 
 .my-services {
   background-color: var(--clr-dark);
-  background-image: url(./Images/pc2.png);
+  background-image: url(./Images/pc3.png);
   background-size: cover;
   object-fit: cover;
   background-blend-mode: multiply;
@@ -418,10 +418,12 @@ header {
   color: var(--clr-light);
   font-size: 1.5em;
   margin-bottom: 0rem;
+  margin-top: 1rem;
 }
 
 .btn-project {
   border-radius: 10px;
+  margin-top: 10px;
   background-color: #4285f4;
   color: var(--clr-light);
   cursor: pointer;
