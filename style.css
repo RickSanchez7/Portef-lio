@@ -7,8 +7,8 @@
 /* Custom Properties, update these for your own design */
 
 :root {
-  --ff-primary: "Source Sans Pro", sans-serif;
-  --ff-secondary: "Source Code Pro", monospace;
+  --ff-primary: 'Source Sans Pro', sans-serif;
+  --ff-secondary: 'Source Code Pro', monospace;
 
   --fw-reg: 300;
   --fw-bold: 900;
@@ -51,7 +51,7 @@ body {
 }
 
 section {
-  padding: 5em 2em;
+  padding: 1em 2em;
 }
 
 img {
@@ -143,6 +143,7 @@ header {
 
 .logo-img {
   width: 200px;
+  object-fit: contain;
 }
 
 .nav {
@@ -229,7 +230,7 @@ header {
 
 .hamburger::before,
 .hamburger::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -248,6 +249,9 @@ header {
   }
   .logo {
     padding: 1em;
+  }
+  section {
+    padding: 5em 2em;
   }
 
   .nav-toggle {
@@ -288,8 +292,8 @@ header {
     margin: 0 auto;
     grid-column-gap: 1em;
     grid-template-areas:
-      "img title"
-      "img subtitle";
+      'img title'
+      'img subtitle';
     grid-template-columns: min-content max-content;
   }
 
@@ -329,7 +333,7 @@ header {
 }
 
 .section__title--services::after {
-  content: "";
+  content: '';
   display: block;
   width: 3em;
   height: 1px;
