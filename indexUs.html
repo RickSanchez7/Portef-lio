@@ -68,9 +68,28 @@
       <Uma class="section__subtitle section__subtitle--work">A selection of my projects</p>
     
         <div class="portfolio">
-                <div class="portfolio__item">
+                <div class="portfolio__item" data-id="1" >
                   <p class="project-title">E-commerce Plataform</p>
-                  <img src="./Images/E-commerce.png" alt="portfolio__img" />
+                  <img class="image" src="./Images/img-1.png" alt="portfolio__img" />
+                  <div class="tech">
+                    <div class="techs" id='tech__id'>
+                    <p>React</p>
+                    <p>SCSS</p>
+                    <p>Firebase</p>
+                    <p>Stripe</p>
+                  </div>
+                    <div class="tech__resume">
+                      <p id="style">
+                        For this project I worked with react-router-dom for navigation, useContext for state management, stripe for payments, Google and E-mail Sign-In with google's firebase and all done with funcional components. 
+                        <br />
+<br />
+                        SCSS for the style.
+                        <br />
+<br />
+                        Mobile Responsive.
+                      </p>
+                    </div>
+                  </div>
                   <div class="container-projects">
                     <a href="https://github.com/RickSanchez7/react-app-roupas-live" target="_blank">
                       <button class="btn-project">Github</button>
@@ -80,9 +99,23 @@
                     </a>
                   </div>
                 </div>
-          <div class="portfolio__item">
-            <p class="project-title">Website</p>
-            <img src="./Images/Yoga.png" alt="portfolio__img" />
+          <div class="portfolio__item" data-id="3">
+            <p class="project-title">Yoga Website</p>
+            <img class="image" src="./Images/img-3.png" alt="portfolio__img" />
+            <div class="tech">
+              <div class="techs" id='tech__id'>
+              <p>HTML</p>
+              <p>CSS3</p>
+              <p>JavaScript</p>
+            </div>
+              <div class="tech__resume">
+                <p id="style">For this project, the focus was the style, it's a static website with images and google maps for the adrees.
+                  <br />
+<br />
+                  Mobile Responsive.
+                </p>
+              </div>
+            </div>
             <div class="container-projects">
               <a href="https://github.com/RickSanchez7/Yoga-website" target="_blank">
                 <button class="btn-project">Github</button>
@@ -92,9 +125,25 @@
               </a>
             </div>
           </div>
-          <div class="portfolio__item">
+          <div class="portfolio__item" data-id="2">
             <p class="project-title">MovieDB</p>
-            <img src="./Images/MovieSearch.png" alt="portfolio__img" />
+            <img class="image" src="./Images/img-2.png" alt="portfolio__img"  />
+            <div class="tech">
+              <div class="techs" id='tech__id'>
+              <p>React</p>
+              <p>CSS3</p>
+            </div>
+              <div class="tech__resume">
+                <p id="style">For this React project, we can query an movie from an external Api to display the information from the queried movie.
+                  <br />
+<br />
+                  CSS for the style.
+                  <br />
+<br />
+                  Mobile Responsive
+                </p>
+              </div>
+            </div>
             <div class="container-projects">
               <a href="https://github.com/RickSanchez7/MovieSeach-DB" target="_blank">
                 <button class="btn-project">Github</button>
@@ -105,6 +154,15 @@
             </div>
           </div>
         </div>
+        <!-- modal -->
+    <div class="work-modal">
+      <div class="work-modal-item">
+          <div class="work-modal-close">
+              <i class="fas fa-window-close"></i>
+          </div>
+      </div>
+  </div>
+  <!-- end of modal -->
     </section>
     <!-- / Projectos -->
 
