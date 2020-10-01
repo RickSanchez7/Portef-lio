@@ -337,7 +337,7 @@ h3 {
 
 .my-services {
   background-color: var(--clr-dark);
-  background-image: url(./Images/pc3.png);
+  background-image: url(/pc3.2a4d9f54.png);
   background-size: cover;
   -o-object-fit: cover;
   object-fit: cover;
@@ -648,3 +648,6 @@ h3 {
 .social-list__link {
   padding: 0.5em;
 }
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
