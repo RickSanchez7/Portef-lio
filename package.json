@@ -18,7 +18,5 @@
     "url": "https://github.com/RickSanchez7/Portef-lio/issues"
   },
   "homepage": "https://github.com/RickSanchez7/Portef-lio#readme",
-  "devDependencies": {
-    "parcel-bundler": "^1.12.4"
-  }
+  "devDependencies": {}
 }

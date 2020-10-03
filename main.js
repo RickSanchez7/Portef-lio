@@ -3,7 +3,6 @@ const navLinks = document.querySelectorAll('.nav__link');
 const modal = document.querySelector('.work-modal');
 const modalItem = document.querySelector('.work-modal-item');
 const containerProjects = document.querySelector('.container-projects');
-import img from './images.js';
 
 navToggle.addEventListener('click', () => {
   document.body.classList.toggle('nav-open');
@@ -27,10 +26,11 @@ const eventListeners = (() => {
         let containerProjects = event.target.parentElement.lastElementChild;
 
         modal.classList.add('show-modal');
+        //modalItem.style.backgroundImage = `url(./Images/img-${id}.png)`;
         modal.innerHTML = `
         <div class="work-modal-item">
           <div class="project__left">
-            <img src="${img.images[id - 1]}" alt="portfolio__img"  />
+            <img src="./Images/img-${id}.png" alt="portfolio__img"  />
             <div class="container-projects">
             ${containerProjects.innerHTML}
             </div>
