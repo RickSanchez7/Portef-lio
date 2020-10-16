@@ -456,7 +456,7 @@ h3 {
   background-color: #4285f4;
   color: var(--clr-light);
   cursor: pointer;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
 }
 .btn-project:hover {
   opacity: 0.8;
