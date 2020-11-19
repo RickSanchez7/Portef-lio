@@ -337,7 +337,7 @@ h3 {
 
 .my-services {
   background-color: var(--clr-dark);
-  background-image: url(./Images/pc3.png);
+  background-image: url(./Images/pc.png);
   background-size: cover;
   -o-object-fit: cover;
   object-fit: cover;
